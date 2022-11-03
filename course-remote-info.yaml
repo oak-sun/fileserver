@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/209950/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Wed, 02 Nov 2022 07:15:13 UTC
+update_date: Thu, 03 Nov 2022 00:38:55 UTC
 stages:
 - id: 283
   step: 5425
@@ -13,7 +13,7 @@ stages:
   is_completed: true
 - id: 285
   step: 5427
-  is_completed: false
+  is_completed: true
 - id: 286
   step: 5428
   is_completed: false
@@ -25,16 +25,6 @@ topics:
     theory_id: 6865
   - title: IDE
     theory_id: 10996
-  - title: Computer algorithms
-    theory_id: 16547
-  - title: The big O notation
-    theory_id: 16699
-  - title: Best, average and worst cases
-    theory_id: 20084
-  - title: Data structures
-    theory_id: 16927
-  - title: Immutability
-    theory_id: 7929
   - title: Computer programming
     theory_id: 8739
   - title: Paradigms
@@ -99,8 +89,6 @@ topics:
     theory_id: 3511
   - title: Arrays as parameters
     theory_id: 3594
-  - title: Iterating over arrays
-    theory_id: 3602
   - title: Characters
     theory_id: 3514
   - title: String
@@ -111,24 +99,12 @@ topics:
     theory_id: 3536
   - title: What is an exception
     theory_id: 3497
-  - title: NPE
-    theory_id: 1945
   - title: Introduction to OOP
     theory_id: 3614
   - title: Package
     theory_id: 3621
   - title: Hierarchy of exceptions
     theory_id: 3570
-  - title: Pseudocode
-    theory_id: 15090
-  - title: Pseudocode basics
-    theory_id: 19510
-  - title: Complex constructions in pseudocode
-    theory_id: 20922
-  - title: Fixed-size array
-    theory_id: 20078
-  - title: Dynamic array
-    theory_id: 5357
   - title: Processing strings
     theory_id: 3551
   - title: Formatted output
@@ -141,18 +117,6 @@ topics:
     theory_id: 5538
   - title: Debugging techniques
     theory_id: 13775
-  - title: Introduction to generic programming
-    theory_id: 3492
-  - title: Generics and Object
-    theory_id: 3493
-  - title: What are collections
-    theory_id: 3770
-  - title: The Collections Framework overview
-    theory_id: 3624
-  - title: ArrayList
-    theory_id: 3567
-  - title: The List interface
-    theory_id: 3581
   - title: Defining classes
     theory_id: 3618
   - title: Constructor
@@ -169,8 +133,6 @@ topics:
     theory_id: 6692
   - title: Referencing subclass objects
     theory_id: 3585
-  - title: The Object class
-    theory_id: 3596
   - title: Multiple constructors
     theory_id: 3538
   - title: The keyword super
@@ -187,15 +149,15 @@ topics:
     theory_id: 3587
   - title: Interface
     theory_id: 3615
-  - title: Boxing and unboxing
-    theory_id: 3595
-  - title: Comparable
-    theory_id: 14456
   1:
   - title: JVM, JRE, and JDK
     theory_id: 3499
   - title: Introduction to Operating systems
     theory_id: 9704
+  - title: Immutability
+    theory_id: 7929
+  - title: NPE
+    theory_id: 1945
   - title: Exception handling
     theory_id: 3552
   - title: Throwing exceptions
@@ -222,6 +184,8 @@ topics:
     theory_id: 8837
   - title: Sockets
     theory_id: 4942
+  - title: Introduction to generic programming
+    theory_id: 3492
   - title: Lambda expressions
     theory_id: 11635
   - title: Threads as objects
@@ -232,14 +196,46 @@ topics:
     theory_id: 3619
   - title: Exceptions in threads
     theory_id: 4882
+  - title: Boxing and unboxing
+    theory_id: 3595
   2:
   - title: Reading files
     theory_id: 3636
   3:
+  - title: Computer algorithms
+    theory_id: 16547
+  - title: The big O notation
+    theory_id: 16699
+  - title: Best, average and worst cases
+    theory_id: 20084
+  - title: Data structures
+    theory_id: 16927
+  - title: Iterating over arrays
+    theory_id: 3602
+  - title: Pseudocode
+    theory_id: 15090
+  - title: Pseudocode basics
+    theory_id: 19510
+  - title: Complex constructions in pseudocode
+    theory_id: 20922
+  - title: Fixed-size array
+    theory_id: 20078
+  - title: Dynamic array
+    theory_id: 5357
   - title: Serialization basics
     theory_id: 8147
   - title: Custom serialization
     theory_id: 3616
+  - title: Generics and Object
+    theory_id: 3493
+  - title: What are collections
+    theory_id: 3770
+  - title: The Collections Framework overview
+    theory_id: 3624
+  - title: ArrayList
+    theory_id: 3567
+  - title: The List interface
+    theory_id: 3581
   - title: The Set interface
     theory_id: 3575
   - title: Method references
@@ -260,6 +256,8 @@ topics:
     theory_id: 13054
   - title: The Map interface
     theory_id: 3558
+  - title: The Object class
+    theory_id: 3596
   - title: Anonymous classes
     theory_id: 11896
   - title: Default methods
